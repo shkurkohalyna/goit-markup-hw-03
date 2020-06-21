@@ -8,94 +8,108 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
-      <!--logo-->
-      <nav>
-        <a href=".index.html" class="logo"
-          ><span class="logo-web">Web</span> Studio</a
-        >
-        <ul class="site-nav">
-          <li><a href="./index.html" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
-        </ul>
+      <div class="container">
+        <nav class="main-nav">
+          <a href=".index.html" class="logo"
+            ><span class="logo-web">Web</span> Studio</a
+          >
+          <ul class="site-nav">
+            <li class="item">
+              <a href="./index.html" class="link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
         <!--contacts-->
         <address>
           <ul class="kompany-contacts">
-            <li>
-              <img
-                src="./images/envelope(hover).png"
-                alt="Обозначение Почтового ящика"
-              />
-
-              <a class="kompany-contacts mail" href="mailto:info@example.com">
-                info@example.com</a
+            <li class="item">
+              <a class="mail" href="mailto:info@example.com" class="button"
+                ><span class="img"
+                  ><img
+                    src="./images/envelope(hover).png"
+                    alt="Обозначение Почтового ящика" /></span
+                >info@example.com</a
               >
             </li>
-            <li>
-              <img src="./images/Vector(3).png" alt="Обозначение телефон" />
-              <a class="kompany-contacts phone" href="tel:+380991111111"
+            <li class="item">
+              <a class="phone" href="tel:+380991111111" class="button">
+                <span class="img"
+                  ><img
+                    src="./images/Vector(3).png"
+                    alt="Обозначение телефон" /></span
                 >+380991111111</a
               >
             </li>
           </ul>
         </address>
-      </nav>
+      </div>
     </header>
     <main>
       <!--hero-->
       <div>
         <section class="hero">
-          <h1 class="hero-title">Зфективные решения для вашего бизнеса</h1>
+          <h1 class="hero-title">
+            еффективные решения <br />
+            для вашего бизнеса
+          </h1>
           <button type="button" class="button primary">Заказать услугу</button>
         </section>
       </div>
       <!-- <h2>Характеристики компании</h2> -->
-      <section>
-        <ul class="section">
-          <li>
+      <section class="container">
+        <ul class="features">
+          <li class="features-card">
             <img
               src="./images/rectangle3.png"
               alt="Внимание к деталям"
               width="270"
             />
-            <h3 class="section-title">Внимание к деталям</h3>
-            <p class="section-text">
+            <h3 class="features-title">Внимание к деталям</h3>
+            <p class="features-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="features-card">
             <img
               src="./images/rectangle3.png"
               alt="Пунктуальность"
               width="270"
             />
-            <h3 class="section-title">Пунктуальность</h3>
-            <p class="section-text">
+            <h3 class="features-title">Пунктуальность</h3>
+            <p class="features-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="features-card">
             <img src="./images/rectangle3.png" alt="Планирование" width="270" />
-            <h3 class="section-title">Планирование</h3>
-            <p class="section-text">
+            <h3 class="features-title">Планирование</h3>
+            <p class="features-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="features-card">
             <img
               src="./images/rectangle3.png"
               alt="Современные технологии"
               width="270"
             />
-            <h3 class="section-title">Современные технологии</h3>
-            <p class="section-text">
+            <h3 class="features-title">Современные технологии</h3>
+            <p class="features-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
