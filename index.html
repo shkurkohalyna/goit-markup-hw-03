@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
-      <div class="container">
+    <header class="container">
+      <div class="page-header">
         <nav class="main-nav">
           <a href=".index.html" class="logo"
             ><span class="logo-web">Web</span> Studio</a
@@ -117,152 +117,277 @@
         </ul>
       </section>
       <!-- Чем мы занимаемся -->
-      <section>
-        <h2 class="section">Чем мы занимаемся</h2>
-        <ul>
-          <li>
-            <a href="" class="directions">Десктопные приложения</a>
+      <section class="container">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="direction-cards">
+          <li class="card">
             <img
               src="./images/img4.png"
               alt="Десктопные приложения"
               width="370"
             />
+            <a href="" class="directions">Десктопные приложения</a>
           </li>
-          <li>
-            <a href="" class="directions">Мобильные приложения</a>
+          <li class="card">
             <img
               src="./images/box.png"
               alt="Мобильные приложения"
               width="370"
             />
+            <a href="" class="directions">Мобильные приложения</a>
           </li>
-          <li>
-            <a href="" class="directions">Дизайнерские решения</a>
+          <li class="card">
             <img src="./images/img5.png" alt="Дизайн страницы" width="370" />
+            <a href="" class="directions">Дизайнерские решения</a>
           </li>
         </ul>
       </section>
       <!-- наша команда -->
-      <section>
-        <h2 class="section">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <a href=""
-              ><img src="./images/img.jpg" alt="Фото Джона Смита" width="270"
-            /></a>
-            <h3 class="names">Николай Кучеренко</h3>
-            <p class="profession">Product Designer</p>
-            <ul>
-              <li><a href="" aria-label="Instagram link">Instagram</a></li>
-              <li><a href="" aria-label="Twitter link">Twitter</a></li>
-              <li><a href="" aria-label="Facebook link">Facebook</a></li>
-              <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./images/img1.jpg"
-                alt="Фото Марта Стюард "
-                width="270"
-            /></a>
-            <h3 class="names">Ольга Иванова</h3>
-            <p class="profession">Frontend Developer</p>
-            <ul>
-              <li><a href="" aria-label="Instagram link">Instagram</a></li>
-              <li><a href="" aria-label="Twitter link">Twitter</a></li>
-              <li><a href="" aria-label="Facebook link">Facebook</a></li>
-              <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href=""
-              ><img
-                src="./images/img2.jpg"
-                alt="Фото Роберта Декса"
-                width="270"
-            /></a>
-            <h3 class="names">Андрей Шевченко</h3>
-            <p class="profession">Marketing</p>
-            <ul class="list">
-              <li><a href="" aria-label="Instagram link">Instagram</a></li>
-              <li><a href="" aria-label="Twitter link">Twitter</a></li>
-              <li><a href="" aria-label="Facebook link">Facebook</a></li>
-              <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/img3.jpg" alt="Фото Мартын Дое " width="270"
-            /></a>
-            <h3 class="names">Иван Николаев</h3>
-            <p class="profession">UI Designer</p>
-            <ul class="list">
-              <li><a href="" aria-label="Instagram link">Instagram</a></li>
-              <li><a href="" aria-label="Twitter link">Twitter</a></li>
-              <li><a href="" aria-label="Facebook link">Facebook</a></li>
-              <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
-            </ul>
-          </li>
-        </ul>
+      <section class="container">
+        <div class="teem">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list-teem">
+            <li class="name-item">
+              <a href=""
+                ><img src="./images/img.jpg" alt="Фото Джона Смита" width="270"
+              /></a>
+              <h3 class="names">Николай Кучеренко</h3>
+              <p class="profession">Product Designer</p>
+              <ul class="networks">
+                <li>
+                  <a href="" aria-label="Instagram link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="Twitter link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="Facebook link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="LinkedIn link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </li>
+            <li class="name-item">
+              <a href=""
+                ><img
+                  src="./images/img1.jpg"
+                  alt="Фото Марта Стюард "
+                  width="270"
+              /></a>
+              <h3 class="names">Ольга Иванова</h3>
+              <p class="profession">Frontend Developer</p>
+              <ul class="networks">
+                <li>
+                  <a href="" aria-label="Instagram link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="Twitter link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="Facebook link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="LinkedIn link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </li>
+            <li class="name-item">
+              <a href=""
+                ><img
+                  src="./images/img2.jpg"
+                  alt="Фото Роберта Декса"
+                  width="270"
+              /></a>
+              <h3 class="names">Андрей Шевченко</h3>
+              <p class="profession">Marketing</p>
+              <ul class="networks">
+                <li>
+                  <a href="" aria-label="Instagram link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="Twitter link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="Facebook link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="LinkedIn link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </li>
+            <li class="name-item">
+              <a href=""
+                ><img
+                  src="./images/img3.jpg"
+                  alt="Фото Мартын Дое "
+                  width="270"
+              /></a>
+              <h3 class="names">Иван Николаев</h3>
+              <p class="profession">UI Designer</p>
+              <ul class="networks">
+                <li>
+                  <a href="" aria-label="Instagram link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="Twitter link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="Facebook link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" aria-label="LinkedIn link">
+                    <img class="img" src="./images/ellipse.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--клиенты-->
-      <section>
-        <h2 class="section">Постоянные клиенты</h2>
-        <ul class="list">
-          <li>
-            <a href=""><img src="./images/rectangle9.png" alt="" />box</a>
-          </li>
-          <li>
-            <a href=""><img src="./images/rectangle9.png" alt="" />box</a>
-          </li>
-          <li>
-            <a href=""><img src="./images/rectangle9.png" alt="" />box</a>
-          </li>
-          <li>
-            <a href=""><img src="./images/rectangle9.png" alt="" />box</a>
-          </li>
-          <li>
-            <a href=""><img src="./images/rectangle9.png" alt="" />box</a>
-          </li>
-          <li>
-            <a href=""><img src="./images/rectangle9.png" alt="" />box</a>
-          </li>
-        </ul>
+      <section class="container">
+        <div class="clients">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="client-list">
+            <li class="client-item">
+              <a href=""
+                ><img src="./images/rectangle9.png" alt="" /><span
+                  class="invisible"
+                  >box</span
+                ></a
+              >
+            </li>
+            <li class="client-item">
+              <a href=""
+                ><img src="./images/rectangle9.png" alt="" /><span
+                  class="invisible"
+                  >box</span
+                ></a
+              >
+            </li>
+            <li class="client-item">
+              <a href=""
+                ><img src="./images/rectangle9.png" alt="" /><span
+                  class="invisible"
+                  >box</span
+                ></a
+              >
+            </li>
+            <li class="client-item">
+              <a href=""
+                ><img src="./images/rectangle9.png" alt="" /><span
+                  class="invisible"
+                  >box</span
+                ></a
+              >
+            </li>
+            <li class="client-item">
+              <a href=""
+                ><img src="./images/rectangle9.png" alt="" /><span
+                  class="invisible"
+                  >box</span
+                ></a
+              >
+            </li>
+            <li class="client-item">
+              <a href=""
+                ><img src="./images/rectangle9.png" alt="" /><span
+                  class="invisible"
+                  >box</span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="container footer">
       <!--footer logo-->
-      <div>
-        <a href=".index.html" class="logo-footer"
-          ><span class="logo-web">Web</span> Studio</a
-        >
-        <address>
-          <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="footer-link" href="mailto:info@example.com"
-            >info@example.com</a
+      <section class="footer-section">
+        <div class="adress-column">
+          <a href=".index.html" class="logo-footer"
+            ><span class="logo-web">Web</span> Studio</a
           >
-          <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
-      </div>
-      <!--Buttons-->
-      <div>
-        <p class="login">присоединяйтесь</p>
-        <ul class="list">
-          <li><a href="" aria-label="Instagram link">Instagram</a></li>
-          <li><a href="" aria-label="Twitter link">Twitter</a></li>
-          <li><a href="" aria-label="Facebook link">Facebook</a></li>
-          <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
-        </ul>
-        <b class="login">Подпишитесь на рассылку</b>
-      </div>
-      <div>
-        <b class="footer-link">email</b>
-        <button class="button primary">Подписаться</button>
-      </div>
-      <div>
+          <ul>
+            <li><p class="adress">г. Киев, пр-т Леси Украинки, 26</p></li>
+            <li>
+              <a class="footer-link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-link" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--Buttons-->
+        <div>
+          <p class="login">присоединяйтесь</p>
+          <ul class="networks">
+            <li>
+              <a href="" aria-label="Instagram link">
+                <img class="img" src="./images/ellipse.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="" aria-label="Instagram link">
+                <img class="img" src="./images/ellipse.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="" aria-label="Instagram link">
+                <img class="img" src="./images/ellipse.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="" aria-label="Instagram link">
+                <img class="img" src="./images/ellipse.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <b class="login">Подпишитесь на рассылку</b>
+          <b class="footer-link">email</b>
+          <button class="button primary">Подписаться</button>
+        </div>
+      </section>
+      <section class="page-end">
         <p class="developed">2020 | Developed by GoIT Students</p>
-      </div>
+      </section>
     </footer>
   </body>
 </html>

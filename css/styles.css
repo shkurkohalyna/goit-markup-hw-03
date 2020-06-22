@@ -24,19 +24,20 @@ body {
 ul {
   list-style: none;
 }
-.container {
+.page-header {
   display: flex;
   align-items: center;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.container {
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
-.page-header {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
-}
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -44,6 +45,7 @@ ul {
   line-height: 1.2;
   color: var(--primary-text-color);
   animation: none;
+  text-decoration: none;
 }
 .logo-web {
   color: var(--accent-color);
@@ -62,6 +64,7 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
   margin-right: 30px;
+  text-decoration: none;
 
   font-weight: 500;
   font-size: 14px;
@@ -167,7 +170,7 @@ ul {
   line-height: 1.2;
   text-align: center;
 }
-.features-card: nth-child(3n) {
+.features-card:nth-child(4n) {
   margin-right: 0px;
 }
 .features-title {
@@ -186,33 +189,110 @@ ul {
   line-height: 1.2;
   color: var(--small-text-color);
 }
+.section-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.direction-cards {
+  display: flex;
+  align-items: center;
+}
+.card {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 94px;
+}
+.direction-cards .card + .card {
+  margin-left: 30px;
+}
 .directions {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--primary-white-color);
+  background-color: var(--small-text-color);
 }
+.container > .teem {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background-color: #f5f4fa;
+}
+.list-teem {
+  display: flex;
+  align-items: center;
+}
+.name-item {
+  display: block;
+  text-align: center;
+  margin-right: 30px;
+
+  background: var(--primary-white-color);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name-item:nth-last-child(4n) {
+  margin-right: 0px;
+}
+
 .names {
+  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   color: var(--primary-text-color);
 }
 .profession {
+  margin-top: 10px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   color: var(--small-text-color);
 }
-
+.networks {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.container > .clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.client-list {
+  display: flex;
+  align-items: center;
+}
+.client-item {
+  margin-top: 50px;
+}
+.client-list .client-item + .client-item {
+  margin-left: 30px;
+}
+.invisible {
+  display: none;
+}
 .footer {
   background-color: #2f303a;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: ;
 }
 .logo-footer {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
   color: var(--primary-white-color);
 }
 .adress {
@@ -226,8 +306,10 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .login {
+  align-items: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
