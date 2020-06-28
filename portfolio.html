@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="container">
-      <div class="page-header">
+    <header class="page-header">
+      <div class="container header">
         <nav class="main-nav">
           <a href="./index.html" class="logo"
             ><span class="logo-web">Web</span> Studio</a
           >
           <ul class="site-nav">
-          <li><a href="./index.html"class="link">Студия</a></li>
-          <li><a href="./portfolio.html"class="link current">Портфолио</a></li>
+          <li class="item"><a href="./index.html"class="link">Студия</a></li>
+          <li class="item"><a href="./portfolio.html"class="link current">Портфолио</a></li>
             </li>
             <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
@@ -25,7 +25,7 @@
         <!--contacts-->
         <address>
           <ul class="kompany-contacts">
-            <li class="item">
+            <li class="cont-item">
               <img
                 src="./images/envelope(hover).png"
                 alt="Обозначение Почтового ящика"
@@ -35,7 +35,7 @@
                 info@example.com</a
               >
             </li>
-            <li class="item">
+            <li class="cont-item">
               <img src="./images/Vector(3).png" alt="Обозначение телефон" />
               <a class="kompany-contacts phone" href="tel:+380991111111"
                 >+380991111111</a
@@ -49,7 +49,6 @@
       <!--Фильтр проектов-->
       <section class="section" > 
         <!-- <h1 class="section-title">Портфолио</h1> -->
-        
           <ul class="container filtr">
             <li><button type="button"class="button">Все</button></li>
             <li><button type="button"class="button">Веб-сайты</button></li>
@@ -57,7 +56,6 @@
             <li><button type="button"class="button">Дизайн</button></li>
             <li><button type="button"class="button">Маркетинг</button></li>
           </ul>
-          
       <!--Cards of projects-->
           <ul class="container our-works">
           <li class="work-item"> <a href="">
@@ -179,7 +177,7 @@
           <!--Buttons-->
           <div>
             <p class="login">присоединяйтесь</p>
-            <ul class="networks">
+            <ul class="networks-links">
               <li>
                 <a href="" aria-label="Instagram link">
                   <img class="img" src="./images/ellipse.png" alt=""
@@ -203,14 +201,16 @@
             </ul>
           </div>
           <div>
-            <b class="login">Подпишитесь на рассылку</b>
+            <b class="login">подпишитесь на рассылку</b>
             <b class="footer-link">email</b>
             <button class="button primary">Подписаться</button>
           </div>
         </div>
       </section>
-      <section class="page-end">
-        <p class="developed">2020 | Developed by GoIT Students</p>
+      <section class="container">
+        <div class="developed">
+          <p>2020 | Developed by GoIT Students</p>
+        </div>
       </section>
     </footer>
   </body>
