@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="container">
-      <div class="page-header">
+    <header class="page-header">
+      <div class="container">
         <nav class="main-nav">
-          <a href=".index.html" class="logo"
+          <a href="./index.html" class="logo"
             ><span class="logo-web">Web</span> Studio</a
           >
           <ul class="site-nav">
@@ -35,20 +35,18 @@
         <address>
           <ul class="kompany-contacts">
             <li class="item">
-              <a class="mail" href="mailto:info@example.com" class="button"
-                ><span class="img"
-                  ><img
-                    src="./images/envelope(hover).png"
-                    alt="Обозначение Почтового ящика" /></span
-                >info@example.com</a
+              <img
+                src="./images/envelope(hover).png"
+                alt="Обозначение Почтового ящика"
+              />
+
+              <a class="kompany-contacts mail" href="mailto:info@example.com">
+                info@example.com</a
               >
             </li>
             <li class="item">
-              <a class="phone" href="tel:+380991111111" class="button">
-                <span class="img"
-                  ><img
-                    src="./images/Vector(3).png"
-                    alt="Обозначение телефон" /></span
+              <img src="./images/Vector(3).png" alt="Обозначение телефон" />
+              <a class="kompany-contacts phone" href="tel:+380991111111"
                 >+380991111111</a
               >
             </li>
@@ -58,95 +56,102 @@
     </header>
     <main>
       <!--hero-->
-      <div>
-        <section class="hero">
-          <h1 class="hero-title">
-            еффективные решения <br />
-            для вашего бизнеса
-          </h1>
-          <button type="button" class="button primary">Заказать услугу</button>
-        </section>
-      </div>
-      <!-- <h2>Характеристики компании</h2> -->
-      <section class="container">
-        <ul class="features">
-          <li class="features-card">
-            <img
-              src="./images/rectangle3.png"
-              alt="Внимание к деталям"
-              width="270"
-            />
-            <h3 class="features-title">Внимание к деталям</h3>
-            <p class="features-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="features-card">
-            <img
-              src="./images/rectangle3.png"
-              alt="Пунктуальность"
-              width="270"
-            />
-            <h3 class="features-title">Пунктуальность</h3>
-            <p class="features-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="features-card">
-            <img src="./images/rectangle3.png" alt="Планирование" width="270" />
-            <h3 class="features-title">Планирование</h3>
-            <p class="features-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="features-card">
-            <img
-              src="./images/rectangle3.png"
-              alt="Современные технологии"
-              width="270"
-            />
-            <h3 class="features-title">Современные технологии</h3>
-            <p class="features-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="hero">
+        <h1 class="hero-title">
+          еффективные решения <br />
+          для вашего бизнеса
+        </h1>
+        <button type="button" class="button primary">Заказать услугу</button>
       </section>
-      <!-- Чем мы занимаемся -->
-      <section class="container">
+
+      <!-- <h2>Характеристики компании</h2> -->
+      <section class="section">
+        <div class="container">
+          <ul class="features">
+            <li class="features-card">
+              <img
+                src="./images/rectangle3.png"
+                alt="Внимание к деталям"
+                width="270"
+              />
+              <h3 class="features-title">Внимание к деталям</h3>
+              <p class="features-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="features-card">
+              <img
+                src="./images/rectangle3.png"
+                alt="Пунктуальность"
+                width="270"
+              />
+              <h3 class="features-title">Пунктуальность</h3>
+              <p class="features-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features-card">
+              <img
+                src="./images/rectangle3.png"
+                alt="Планирование"
+                width="270"
+              />
+              <h3 class="features-title">Планирование</h3>
+              <p class="features-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="features-card">
+              <img
+                src="./images/rectangle3.png"
+                alt="Современные технологии"
+                width="270"
+              />
+              <h3 class="features-title">Современные технологии</h3>
+              <p class="features-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Чем мы занимаемся -->
+
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="direction-cards">
-          <li class="card">
-            <img
-              src="./images/img4.png"
-              alt="Десктопные приложения"
-              width="370"
-            />
-            <a href="" class="directions">Десктопные приложения</a>
-          </li>
-          <li class="card">
-            <img
-              src="./images/box.png"
-              alt="Мобильные приложения"
-              width="370"
-            />
-            <a href="" class="directions">Мобильные приложения</a>
-          </li>
-          <li class="card">
-            <img src="./images/img5.png" alt="Дизайн страницы" width="370" />
-            <a href="" class="directions">Дизайнерские решения</a>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="direction-cards">
+            <li class="card">
+              <img
+                src="./images/img4.png"
+                alt="Десктопные приложения"
+                width="370"
+              />
+              <a href="" class="directions">Десктопные приложения</a>
+            </li>
+            <li class="card">
+              <img
+                src="./images/box.png"
+                alt="Мобильные приложения"
+                width="370"
+              />
+              <a href="" class="directions">Мобильные приложения</a>
+            </li>
+            <li class="card">
+              <img src="./images/img5.png" alt="Дизайн страницы" width="370" />
+              <a href="" class="directions">Дизайнерские решения</a>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- наша команда -->
-      <section class="container">
-        <div class="teem">
-          <h2 class="section-title">Наша команда</h2>
-          <ul class="list-teem">
+      <section class="section teem">
+        <h2 class="section-title">Наша команда</h2>
+        <div class="container">
+          <ul class="teem-list">
             <li class="name-item">
               <a href=""
                 ><img src="./images/img.jpg" alt="Фото Джона Смита" width="270"
@@ -276,9 +281,9 @@
         </div>
       </section>
       <!--клиенты-->
-      <section class="container">
-        <div class="clients">
-          <h2 class="section-title">Постоянные клиенты</h2>
+      <section class="section clients">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <div class="container">
           <ul class="client-list">
             <li class="client-item">
               <a href=""
@@ -332,60 +337,62 @@
         </div>
       </section>
     </main>
-    <footer class="container footer">
+    <footer class="footer">
       <!--footer logo-->
-      <section class="footer-section">
-        <div class="adress-column">
-          <a href=".index.html" class="logo-footer"
-            ><span class="logo-web">Web</span> Studio</a
-          >
-          <ul>
-            <li><p class="adress">г. Киев, пр-т Леси Украинки, 26</p></li>
-            <li>
-              <a class="footer-link" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a class="footer-link" href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
-            </li>
-          </ul>
-        </div>
-        <!--Buttons-->
-        <div>
-          <p class="login">присоединяйтесь</p>
-          <ul class="networks">
-            <li>
-              <a href="" aria-label="Instagram link">
-                <img class="img" src="./images/ellipse.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="" aria-label="Instagram link">
-                <img class="img" src="./images/ellipse.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="" aria-label="Instagram link">
-                <img class="img" src="./images/ellipse.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="" aria-label="Instagram link">
-                <img class="img" src="./images/ellipse.png" alt=""
-              /></a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <b class="login">Подпишитесь на рассылку</b>
-          <b class="footer-link">email</b>
-          <button class="button primary">Подписаться</button>
+      <section class="section-footer">
+        <div class="container">
+          <div class="adress-column">
+            <a href="./index.html" class="logo-footer"
+              ><span class="logo-web">Web</span> Studio</a
+            >
+            <ul>
+              <li><p class="adress">г. Киев, пр-т Леси Украинки, 26</p></li>
+              <li>
+                <a class="footer-link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Buttons-->
+          <div>
+            <p class="login">присоединяйтесь</p>
+            <ul class="networks-links">
+              <li>
+                <a href="" aria-label="Instagram link">
+                  <img class="img" src="./images/ellipse.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="" aria-label="Instagram link">
+                  <img class="img" src="./images/ellipse.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="" aria-label="Instagram link">
+                  <img class="img" src="./images/ellipse.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="" aria-label="Instagram link">
+                  <img class="img" src="./images/ellipse.png" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <b class="login">Подпишитесь на рассылку</b>
+            <b class="footer-link">email</b>
+            <button class="button primary">Подписаться</button>
+          </div>
         </div>
       </section>
-      <section class="page-end">
+      <section class="container">
         <p class="developed">2020 | Developed by GoIT Students</p>
       </section>
     </footer>
